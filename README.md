@@ -30,3 +30,6 @@ The model was verified to load in Chrome. Live hand tracking needs testing with 
 
 MediaPipe: https://github.com/google-ai-edge/mediapipe (Apache-2.0).
 Hand Landmarker documentation: https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/web_js
+
+## Scoreboard
+Correct sorts earn +10 × the multiplier: first +10, second +20, third +30, and so on. The displayed multiplier is for the next correct sort. A wrong sort deducts 5 points and resets the multiplier to ×1. Scores can be negative. Restart clears the session scoreboard.
